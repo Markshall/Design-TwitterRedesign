@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Twitter</title>
+		<link type="text/css" rel="stylesheet" href="css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/global.css" />
+		<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,700,900" />
+		
+		<!--
+		Coded by Mark Eriksson (http://mark-eriksson.com);
+		Original design by Bluroon (https://dribbble.com/shots/1546643-Twitter-Profile)
+		-->
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21727306-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-21727306-1');
+		</script>
+	</head>
+	
+	<body>
+		<div class="design-disclaimer" onclick="javascript:this.style.display='none';" style="position:fixed;width:100%;z-index:30;background-color: #eaeaea;text-align: center;padding: 16px;border-bottom: 2px solid #ccc;box-shadow: inset 0 -5px 11px -5px rgba(0,0,0,.3);font: 400 15px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;color: #424140;cursor: pointer;">
+			Please be aware this is not a live project. It is a copy of a website by <a href="https://dribbble.com/shots/1546643-Twitter-Profile" target="_blank" style="color: #2b2a2a;text-decoration: underline;">Bluroon</a> from Dribbble.com<br />Click to hide.
+		</div>
+		
+		<div class="container">
+			<div id="white-bar-top" class="clearfix text-center">
+				<div class="block">
+					<div class="new-tweet-holder">
+						<a href="#" class="new-tweet bar-icon"><i class="fa fa-pencil-square-o"></i></a>
+					</div>
+					
+					<div class="menu-actions">
+						<a href="#" class="bar-icon"><i class="fa fa-bell"></i></a>
+						<a href="#" class="bar-icon"><i class="fa fa-envelope"></i></a>
+						<a href="#" class="bar-icon"><i class="fa fa-slack"></i></a>
+					</div>
+				</div>
+				
+				<div class="block logo"><a href="#"><i class="fa fa-twitter twitter-blue twitter-logo"></i></a></div>
+				
+				<div class="block right text-right">
+					<input type="text" placeholder="Search" class="top-search" />
+					<a href="#"><img src="img/joe-bloggs.jpg" class="user-pic" width="36" height="36" alt="Joe Bloggs" /></a>
+				</div>
+			</div>
+			
+			<div id="main-content" class="clearfix">
+				<section id="content-left">
+					<div class="user-info">
+						<img src="img/mark.jpg" class="user-pic" width="80" height="80" alt="Mark Eriksson" />
+						<h4>Mark Eriksson</h4>
+						
+						<p class="bio">My name is Mark. I'm 20 years old, enjoy eating super noodles, watching movies and having a few social drinks. I'm also a web developer.</p>
+						
+						<div class="website"><i class="fa fa-link"></i> <a href="#">www.mark-eriksson.com</a></div>
+						
+						<a href="#" class="follow">Follow</a>
+					</div>
+					
+					<div class="image-grid clearfix">
+						<a href="#"><img src="img/grid/1.jpg" /></a>
+						<a href="#"><img src="img/grid/2.jpg" /></a>
+						<a href="#"><img src="img/grid/3.jpg" /></a>
+						<a href="#"><img src="img/grid/4.jpg" /></a>
+						<a href="#"><img src="img/grid/5.jpg" /></a>
+						<a href="#"><img src="img/grid/6.jpg" /></a>
+						<a href="#"><img src="img/grid/7.jpg" /></a>
+						<a href="#"><img src="img/grid/8.jpg" /></a>
+						<a href="#"><img src="img/grid/9.jpg" /></a>
+					</div>
+					
+					<div class="left-section">
+						<h5>Activities</h5>
+						
+						<div class="activity"><i class="fa fa-fw fa-plus"></i> Followed <a href="#">Marshall Mathers</a></div>
+						<div class="activity"><i class="fa fa-fw fa-reply"></i> Replied to <a href="#">Steven's tweet</a></div>
+						<div class="activity"><i class="fa fa-fw fa-retweet"></i> Retweeted <a href="#">Chris' tweet</a></div>
+						<div class="activity"><i class="fa fa-fw fa-star"></i> Favourited <a href="#">Joe's tweet</a></div>
+					</div>
+				</section>
+				<section id="content-center">
+					<div class="tabs clearfix">
+						<a href="#" class="tab active">
+							<span class="tab-name">Tweets</span>
+							<span class="tab-value">200</span>
+						</a>
+						
+						<a href="#" class="tab">
+							<span class="tab-name">Photos/Videos</span>
+							<span class="tab-value">41</span>
+						</a>
+						
+						<a href="#" class="tab">
+							<span class="tab-name">Following</span>
+							<span class="tab-value">284</span>
+						</a>
+						
+						<a href="#" class="tab">
+							<span class="tab-name">Followers</span>
+							<span class="tab-value">1.5m</span>
+						</a>
+					</div>
+					
+					<article class="tweet clearfix">
+						<div class="tweet-left pull-left">
+							<a href="#"><img src="img/eminem.jpeg" alt="Eminem" height="40" width="40" class="user-pic" /></a>
+						</div>
+						<div class="tweet-right pull-left">
+							<div class="tweet-header clearfix">
+								<a href="#" class="pull-left"><span class="name is-retweet">Marshall Mathers</span> <span class="at">@eminem</span></a>
+								<span class="pull-right tweet-time"><a href="#">2m</a></span>
+							</div>
+							
+							<p class="tweet-text">My favourite fan is Mark Eriksson!</p>
+							
+							<div class="tweet-actions clearfix">
+								<div class="pull-left">
+									<div class="tweet-action"><a href="#"><i class="fa fa-reply"></i></a></div>
+									<div class="tweet-action favourited"><a href="#"><i class="fa fa-star"></i> 27.8k</a></div>
+									<div class="tweet-action retweeted"><a href="#"><i class="fa fa-retweet"></i> 3.4k</a></div>
+									<div class="tweet-action"><a href="#"><i class="fa fa-ellipsis-h"></i></a></div>
+								</div>
+								<div class="pull-right">
+									<div class="tweet-action"><a href="#"><i class="fa fa-expand"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</article>
+					
+					<article class="tweet clearfix">
+						<div class="tweet-left pull-left">
+							<a href="#"><img src="img/mark.jpg" alt="Mark Eriksson" height="40" width="40" class="user-pic" /></a>
+						</div>
+						<div class="tweet-right pull-left">
+							<div class="tweet-header clearfix">
+								<a href="#" class="pull-left"><span class="name">Mark Eriksson</span> <span class="at">@markshall94</span></a>
+								<span class="pull-right tweet-time"><a href="#">4m</a></span>
+							</div>
+							
+							<p class="tweet-text">Expetendis et noster, vidisse nam legam laborum. Est magna cillum fugiat 
+								arbitror. E tamen ab nisi quo fugiat possumus voluptate iis cernantur sed quorum 
+								incididunt quo in laborum e laborum.</p>
+							
+							<div class="tweet-actions clearfix">
+								<div class="pull-left">
+									<div class="tweet-action"><a href="#"><i class="fa fa-reply"></i></a></div>
+									<div class="tweet-action"><a href="#"><i class="fa fa-star"></i></a></div>
+									<div class="tweet-action retweeted"><a href="#"><i class="fa fa-retweet"></i> 2</a></div>
+									<div class="tweet-action"><a href="#"><i class="fa fa-ellipsis-h"></i></a></div>
+								</div>
+								<div class="pull-right">
+									<div class="tweet-action"><a href="#"><i class="fa fa-expand"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</article>
+					
+					<article class="tweet clearfix">
+						<div class="tweet-left pull-left">
+							<a href="#"><img src="img/mark.jpg" alt="Mark Eriksson" height="40" width="40" class="user-pic" /></a>
+						</div>
+						<div class="tweet-right pull-left">
+							<div class="tweet-header clearfix">
+								<a href="#" class="pull-left"><span class="name">Mark Eriksson</span> <span class="at">@markshall94</span></a>
+								<span class="pull-right tweet-time"><a href="#">9m</a></span>
+							</div>
+							
+							<p class="tweet-text">I'm too awesome.</p>
+							
+							<div class="tweet-actions clearfix">
+								<div class="pull-left">
+									<div class="tweet-action"><a href="#"><i class="fa fa-reply"></i></a></div>
+									<div class="tweet-action favourited"><a href="#"><i class="fa fa-star"></i> 38</a></div>
+									<div class="tweet-action"><a href="#"><i class="fa fa-retweet"></i> 313</a></div>
+									<div class="tweet-action"><a href="#"><i class="fa fa-ellipsis-h"></i></a></div>
+								</div>
+								<div class="pull-right">
+									<div class="tweet-action"><a href="#"><i class="fa fa-expand"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+				<section id="content-right" class="pull-right">
+					<div class="right-section">
+						<h5>Liverpool Trending</h5>
+						
+						<ul>
+							<li><a href="#">#TOWIE</a></li>
+							<li><a href="#">Sanchez</a></li>
+							<li><a href="#">#dancingrabbit</a></li>
+							<li><a href="#">#Wimbledon2014</a></li>
+							<li><a href="#">#5sosupindisstream</a></li>
+							<li><a href="#">Belgium</a></li>
+							<li><a href="#">Tim Howard</a></li>
+							<li><a href="#">Suarez</a></li>
+							<li><a href="#">#WorldCup</a></li>
+						</ul>
+					</div>
+					
+					<div class="right-section">
+						<div class="clearfix">
+							<h5 class="pull-left">Who to Follow</h5>
+							<span class="pull-right"><a href="#">More</a></span>
+						</div>
+						
+						<div class="who-to-follow clearfix">
+							<a href="#"><img src="img/mark.jpg" width="40" height="40" alt="Mark Eriksson" class="user-pic pull-left" /></a>
+							<div class="follow-info pull-left">
+								<span class="name"><a href="#">Mark Eriksson</a></span> <a href="#" class="pull-right follow">+</a><br />
+								<span class="occupation">Web Developer</span>
+							</div>
+						</div>
+						<div class="who-to-follow clearfix">
+							<a href="#"><img src="img/follow2.jpg" width="40" height="40" alt="Chris Spooner" class="user-pic pull-left" /></a>
+							<div class="follow-info pull-left">
+								<span class="name"><a href="#">Chris Spooner</a></span> <a href="#" class="pull-right follow">+</a><br />
+								<span class="occupation">Designer, Blogger</span>
+							</div>
+						</div>
+						<div class="who-to-follow clearfix">
+							<a href="#"><img src="img/eminem.jpeg" width="40" height="40" alt="Marshall Mathers" class="user-pic pull-left" /></a>
+							<div class="follow-info pull-left">
+								<span class="name"><a href="#">Marshall Mathers</a></span> <a href="#" class="pull-right follow">+</a><br />
+								<span class="occupation">Musician</span>
+							</div>
+						</div>
+						<div class="who-to-follow clearfix">
+							<a href="#"><img src="img/follow3.jpg" width="40" height="40" alt="Jake James" class="user-pic pull-left" /></a>
+							<div class="follow-info pull-left">
+								<span class="name"><a href="#">Jake James</a></span> <a href="#" class="pull-right follow">+</a><br />
+								<span class="occupation">UI/UX Designer</span>
+							</div>
+						</div>
+						<div class="who-to-follow clearfix">
+							<a href="#"><img src="img/follow4.jpg" width="40" height="40" alt="Steven Murphy" class="user-pic pull-left" /></a>
+							<div class="follow-info pull-left">
+								<span class="name"><a href="#">Steven Murphy</a></span> <a href="#" class="pull-right follow">+</a><br />
+								<span class="occupation">Typography Expert</span>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
