@@ -1,7 +1,7 @@
 # Design-TwitterRedesign
 [Preview link](http://mark-eriksson.com/work/designs/TwitterRedesign)
 
-Design by Bluroon (https://dribbble.com/shots/1546643-Twitter-Profile)
+Design by Ramil Derogongun (https://dribbble.com/shots/1546643-Twitter-Profile)
 
 ## Features
 1. CSS animations
